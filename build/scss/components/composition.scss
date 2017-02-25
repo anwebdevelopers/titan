@@ -1,0 +1,37 @@
+.composition {
+	float: left;
+	width: 214px;
+}
+.composition__title {
+	h2 {
+		font-size: 25px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
+.composition__item {
+	@extend .clearfix;
+	padding: 12px 0 12px 0;
+	border-bottom: 1px dashed #ccc;
+	&:last-child {
+		border: none;
+	}
+	img {
+		float: left;
+		width: 63px;
+		height: 63px;
+		margin: 0 10px 0 0;
+	}
+	h3 {
+		margin: -2px 0 0 0;
+		font-size: 14px;
+		line-height: 18px;
+		color: $main-color;
+		font-weight: 400;
+	}
+	p {
+		margin: 0 0 0 73px;
+		font-size: 12px;
+		line-height: 14px;
+	}
+}

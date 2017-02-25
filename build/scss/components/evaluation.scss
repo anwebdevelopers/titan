@@ -1,0 +1,140 @@
+.evaluation {
+	clear: both;
+	padding: 22px 0 0 0;
+}
+.evaluation__title {
+	h2 {
+		font-size: 25px;
+		text-transform: uppercase;
+		margin: 0 0 20px 0;
+	}
+}
+.evaluation__item {
+	@extend .clearfix;
+	position: relative;
+	margin: 0 0 30px 0;
+}
+.evaluation__item-img {
+	float: left;
+	margin: 0 25px 0 0;
+}
+.evaluation__item-text {
+
+	p {
+		line-height: 16px;
+		strong {
+			color: $main-color;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+	}
+}
+.evaluation__item-text-center {
+	margin: 0 0 0 398px;
+}
+.evaluation__item-img-right {
+	float: right;
+	margin: 0 0 0 20px;
+}
+.evaluation__item-img-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.order {
+	background-image: url(../img/order-bg.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	padding: 180px 0 130px 0;
+	margin: -70px 0 0 0;
+}
+.order__title {
+	width: 486px;
+	margin: 0 auto;
+	text-align: center;
+	h3 {
+		margin: 0 0 20px 0;
+		padding: 0 0 0 40px;
+		font-size: 25px;
+		text-transform: uppercase;
+		color: #fff;
+		line-height: 32px;
+	}
+}
+.order__form {
+	width: 524px;
+	margin: 0 auto;
+	padding: 0 0 0 20px;
+}
+.reviews {
+	margin: 0 0 140px 0;
+	.reviews__slider-nav {
+		position: relative;
+		z-index: 3;
+		color: $main-color;
+		font-size: 86px;
+
+	}
+	.reviews__slider-nav-prev {
+		position: absolute;
+		cursor: pointer;
+		top: 25px;
+		left: -30px;
+	}
+	.reviews__slider-nav-next {
+		position: absolute;
+		cursor: pointer;
+		top: 25px;
+		right: -30px;
+	}
+}
+.reviews__title {
+	text-align: center;
+	h3 {
+		font-size: 25px;
+		text-transform: uppercase;
+		margin: 0 0 25px 0;
+	}
+}
+.reviews__slider {
+	margin: 0 auto;
+	width: 910px;
+	min-height: 180px;	
+}
+.reviews__slider-wrapper {
+	position: relative;
+	.slider__item {
+		width: 430px;
+		min-height: 180px;
+		margin: 0 12px;
+		border-radius: 10px;
+		border: 1px dashed #ccc;
+		.slider__item-text {
+			
+			p {
+				margin: 15px 0;
+				padding: 0 15px;
+				font-size: 14px;
+				line-height: 14px;
+			}
+		}
+		.slider__item-pict {
+			float: left;
+			padding: 15px 15px 15px 15px;
+			img {
+				display: block;
+				width: 64px;
+				height: 56px;
+
+			}
+		}
+		.slider__item-link {
+			a {
+				text-decoration: none;
+				color: $main-color;
+				padding: 0 15px;
+			}
+		}
+	}
+}

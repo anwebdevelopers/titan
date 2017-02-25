@@ -1,0 +1,91 @@
+.post-logo-4, .post-logo-5, .post-logo-6, .post-logo-7, .post-logo-8, .reviews-icon, .header-icon-1, .header-icon-2, .header-icon-3, .inform-icon, .post-logo-1, .post-logo-2, .post-logo-3{
+	background: url(sprites.png) no-repeat;
+}
+
+.post-logo-4{
+	background-position: -116.9903564453125px -160.99151611328125px ;
+	width: 147px;
+	height: 18px;
+}
+
+.post-logo-5{
+	background-position: 0 -163.98046875px ;
+	width: 101px;
+	height: 101px;
+}
+
+.post-logo-6{
+	background-position: -325.966552734375px -87.96414184570312px ;
+	width: 147px;
+	height: 43px;
+}
+
+.post-logo-7{
+	background-position: -155.98028564453125px -87.9755859375px ;
+	width: 147px;
+	height: 34px;
+}
+
+.post-logo-8{
+	background-position: -4.9903564453125px -69.99151611328125px ;
+	width: 147px;
+	height: 79px;
+}
+
+.reviews-icon{
+	background-position: -337.9903564453125px -139.99151611328125px ;
+	width: 11px;
+	height: 43px;
+}
+
+.header-icon-1{
+	background-position: -114.9759521484375px -193.95474243164062px ;
+	width: 68px;
+	height: 68px;
+}
+
+.header-icon-2{
+	background-position: -275.95098876953125px -198.94012451171875px ;
+	width: 61px;
+	height: 61px;
+}
+
+.header-icon-3{
+	background-position: -193.9278564453125px -196.962646484375px ;
+	width: 65px;
+	height: 65px;
+}
+
+.inform-icon{
+	background-position: -286.98907470703125px -148.97128295898438px ;
+	width: 30px;
+	height: 30px;
+}
+.inform-icon-2{
+	background-position: -368.98291015625px -148.9857063293457px ;
+	width: 35px;
+	height: 29px;
+}
+.post-logo-1{
+	background-position: -322.97802734375px 0;
+	width: 147px;
+	height: 71px;
+}
+
+.post-logo-2{
+	background-position: -158.986083984375px 0;
+	width: 148px;
+	height: 54px;
+}
+
+.post-logo-3{
+	background-position: 0 -1.99151611328125px ;
+	width: 147px;
+	height: 54px;
+}
+
+.post-logo-5-min{
+	background-position: -359.97027587890625px -184.95477294921875px ;
+	width: 79px;
+	height: 79px;
+}

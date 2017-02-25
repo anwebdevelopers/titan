@@ -1,0 +1,59 @@
+@import "bourbon";
+@import "components/vars.scss";
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	color: #666;
+}
+body input:required:valid,
+body textarea:required:valid {
+	color: #666;
+}
+
+
+//Custom Styles Here
+@import "components/header.scss";
+@import "components/working.scss";
+@import "components/composition.scss";
+@import "components/evaluation.scss";
+@import "components/footer.scss";
+//second page
+@import "components/main-composition.scss";
+@import "components/aside.scss";
+//third page
+@import "components/main-working.scss";
+@import "components/instruction.scss";
+//revievs
+@import "components/main-reviews.scss";
+//order
+@import "components/main-order.scss";
+//delivery
+@import "components/main-delivery.scss";
+
+//@import "build/scss/components/magnific-popup.scss";
+
+//ALWAYS END
+@import "components/media.scss";
+//Load Libs SASS
+@import "html/libs/animate/animate.sass";
+//@import "html/libs/superfish/dist/css/superfish";
+@import "html/libs/font-awesome/scss/font-awesome.scss";
+//@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";
+//@import "html/libs/magnific-popup/dist/magnific-popup";

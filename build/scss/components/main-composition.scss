@@ -1,0 +1,152 @@
+.main-composition {
+	float: right;
+	width: 673px;
+}
+.main-composition__title {
+	h1 {
+		font-size: 25px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
+.main-composition__box {
+
+}
+.main-composition__box-text {
+		clear: both;
+	p {
+		margin: 10px 0 20px 0;
+		line-height: 16px;
+	}
+}
+.main-composition__box-images {
+	padding-top: 25px;
+	position: relative;
+}
+.main-composition__box-img-1 {
+	margin-bottom: 40px;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.main-composition__box-img-2 {
+	position: absolute;
+	left: 0;
+	top: 15px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: -3px;
+		right: -12px;
+		background-image: url(../img/sprites.png);
+		background-position: -368.98291015625px -148.9857063293457px ;
+		width: 35px;
+		height: 29px;
+	}
+	&:before {
+		content: 'Чертополох';
+		position: absolute;
+		right: -90px;
+		top: -17px;
+		font-style:italic;
+		font-size: 13px;
+	}
+}
+.main-composition__box-img-3 {
+	position: absolute;
+	right: 0;
+	top: 15px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: -3px;
+		left: -12px;
+		background-image: url(../img/sprites.png);
+		background-position: -368.98291015625px -148.9857063293457px ;
+		width: 35px;
+		height: 29px;
+		transform: rotateY(180deg);
+	}
+	&:before {
+		content: 'Мака перуанская';
+		position: absolute;
+		left: -90px;
+		top: -22px;
+		font-style:italic;
+		font-size: 13px;
+	}
+}
+.main-composition__box-img-4 {
+	position: absolute;
+	left: 70px;
+	top: 185px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: -15px;
+		left: 17px;
+		background-image: url(../img/sprites.png);
+		background-position: -368.98291015625px -148.9857063293457px ;
+		width: 35px;
+		height: 29px;
+		transform: rotateY(180deg);
+	}
+	&:before {
+		content: 'Экстракт лишайника';
+		position: absolute;
+		left: -65px;
+		top: -32px;
+		font-style:italic;
+		font-size: 13px;
+	}
+}
+.main-composition__box-img-5 {
+	position: absolute;
+	right: 70px;
+	top: 185px;
+	&:after {
+		content: '';
+		position: absolute;
+		top: -13px;
+		right: 52px;
+		background-image: url(../img/sprites.png);
+		background-position: -368.98291015625px -148.9857063293457px ;
+		width: 35px;
+		height: 29px;
+	}
+	&:before {
+		content: 'Горянка';
+		position: absolute;
+		right: 20px;
+		top: -32px;
+		font-style:italic;
+		font-size: 13px;
+	}
+}
+.main-composition__list {
+
+	ul {
+		margin: 0;
+		padding: 0 0 0 15px;
+		list-style: none;
+		li {
+			position: relative;
+			margin: 0 0 10px 0;
+			i {
+				position: absolute;
+				top: 3px;
+				left: -15px;
+				color: $main-color;
+				font-size: 12px;
+			}
+		}
+	}
+}
+.main-composition__order-title {
+	h3 {
+		font-size: 25px;
+		text-transform: uppercase;
+		margin: 0;
+	}
+}
